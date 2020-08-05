@@ -92,4 +92,4 @@ def search(db, tname, **val):
         else:
             data = 1
             name, phone = row
-            print('{} - {}'.format(name, phone))
+            print('{} - {}'.format(name, phone)) 
