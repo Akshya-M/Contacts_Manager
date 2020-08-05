@@ -44,7 +44,7 @@ while True:
         if att == 'name':
             name = input('enter the name: ')
             query.search(db, table_name, name=name)
-        if att == 'number':
+        if att == 'phone':
             num = input('enter the phone no: ')
             query.search(db, table_name, phone=num)
 
