@@ -32,12 +32,12 @@ while True:
     elif op == 'edit':
         var = input('update name or phone: ')
         if var == 'name':
-            phone = input('enter the number of which name to be updated: ')
+            phone = input('enter the phone no of which name to be updated: ')
             new_name = input('enter the new name: ')
             query.update(db, table_name, phone=phone, where_name=new_name)
         if var == 'phone':
             name = input('enter the name whose number to be updated: ')
-            new_phone = input('enter the new number: ')
+            new_phone = input('enter the new phone no: ')
             query.update(db, table_name, name=name, where_phone=new_phone)
     elif op == 'search':
         att = input('search by name or phone: ')
